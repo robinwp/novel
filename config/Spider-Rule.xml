@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites>
+	<site>
+		<title>顶点小说</title>
+		<charset>gbk</charset>
+		<url>http://www.23us.com</url>
+		<novel-selector>tbody tr</novel-selector>
+		<novel-next-select>a.next</novel-next-select>
+		<chapter-list-selector>#at td a</chapter-list-selector>
+		<chapter-detail-title-selector>h1</chapter-detail-title-selector>
+		<chapter-detail-content-selector>#contents</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>#footlink a</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>#footlink a,2</chapter-detail-next-selector>
+	</site>
+	<site>
+		<title>笔趣阁</title>
+		<charset>utf-8</charset>
+		<url>http://www.biquge.com</url>
+		<chapter-list-selector>#list dd a</chapter-list-selector>
+		<chapter-detail-title-selector>.bookname h1</chapter-detail-title-selector>
+		<chapter-detail-content-selector>#content</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>.bottem2 a</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>.bottem2 a,2</chapter-detail-next-selector>
+	</site>
+	<site>
+		<title>看书中</title>
+		<charset>gbk</charset>
+		<url>http://www.kanshuzhong.com</url>
+		<chapter-list-selector>.bookcontent dd a</chapter-list-selector>
+		<chapter-detail-title-selector>h2.ctitle</chapter-detail-title-selector>
+		<chapter-detail-content-selector>.textcontent</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>.readlink a,1</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>.readlink a,3</chapter-detail-next-selector>
+	</site>
+</sites>
